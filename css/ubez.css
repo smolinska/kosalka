@@ -1,0 +1,51 @@
+body {
+  background: url("../img/bg1.png") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: #333;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif; }
+
+html, body, .container-fluid {
+  height: 100%; }
+
+.row-logo {
+  text-align: center; }
+  .row-logo img {
+    width: 60%; }
+
+.row-1, .row-2 {
+  padding: 25px;
+  min-height: 50%; }
+
+.row-2 {
+  background: url("../img/bg2.jpg");
+  background-size: cover;
+  color: #ddd; }
+
+.row-foot {
+  width: 100%;
+  padding: 15px;
+  height: 10%; }
+
+.col-sm-4 {
+  padding: 40px; }
+  .col-sm-4 img {
+    width: 100%; }
+
+.col-sm-2 {
+  vertical-align: middle;
+  padding: 40px; }
+  .col-sm-2 img {
+    width: 150px; }
+
+img {
+  border-radius: 2px; }
+
+h2 {
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.55); }
+
+/*# sourceMappingURL=ubez.css.map */
