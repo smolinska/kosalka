@@ -1,2 +1,6 @@
 .idea/
 *.map
+css/bootstrap.css
+css/bootstrap-theme.css
+js/bootstrap.js
+js/bootstrap.min.js
