@@ -65,6 +65,25 @@ h2 {
       box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.21);
     }
   }
+  a {
+    position: relative;
+    display: block;
+    span {
+      color: #333;
+      background: rgba(111, 111, 111, 0.56);
+      text-align: right;
+      letter-spacing: 2px;
+      font-size: 30px;
+      line-height: 33px;
+      width: 100%;
+      position: absolute;
+      right: 0;
+      bottom: 30px;
+      border-bottom: 2px solid;
+      padding: 13px 9px 0px 20px;
+    }
+  }
+
 }
 
 .ubezpieczenia, .leasing {
