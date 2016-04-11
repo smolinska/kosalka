@@ -5,11 +5,11 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   color: #333;
-  text-align: justify;
-  font-family: 'Josefin Sans', 'Century Gothic', sans-serif;
+  text-align: center;
+  font-family: 'Comfortaa', 'Century Gothic', sans-serif;
   font-size: large;
   letter-spacing: 1px;
-  line-height: 1cm;
+  line-height: 0.8cm;
 }
 
 html, body, .container-fluid {
@@ -17,8 +17,18 @@ html, body, .container-fluid {
   html *, body *, .container-fluid * {
     transition: all 0.5s; }
 
+a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ddd;
+  text-decoration: none;
+}
+
 .row-logo {
-  text-align: center;
   padding-bottom: 40px; }
   .row-logo img {
     width: 60%; }
@@ -27,17 +37,9 @@ html, body, .container-fluid {
   min-height: 50%;
   padding-bottom: 60px; }
 
-.kontakt, .ubezpieczenia-logo, .leasing-logo {
-  text-align: center;
-}
-
 .row:nth-child(even):not(.row-navbar) {
   background: url("../img/bg2.jpg");
   background-size: cover;
-}
-
-.row-ub-logo {
-  padding-top: 60px;
 }
 
 .row-foot {
@@ -47,14 +49,18 @@ html, body, .container-fluid {
 }
 
 h2, h3 {
-  text-align: center;
   letter-spacing: 2px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.62);
+}
+
+h2 {
   padding-bottom: 20px; }
 
 .icon-wrapper {
+  display: block;
   font-size: 40px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .hover-effect {
@@ -83,7 +89,11 @@ h2, h3 {
       border-bottom: 2px solid;
       padding: 13px 9px 0px 20px; }
 
-.ubezpieczenia-logo img, .leasing-logo img {
+.ubezpieczenia-logo, .leasing-logo, .no-header {
+  padding-top: 60px;
+}
+
+.ubezpieczenia-logo img, .leasing-logo img, .no-header img {
   width: 100%;
 }
 
@@ -95,7 +105,7 @@ img {
   padding-bottom: 40px;
   padding-left: 0;
   list-style-type: none;
-  text-align: center; }
+}
 
 #navcontainer ul li {
   display: inline; }
@@ -116,12 +126,32 @@ iframe {
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.25);
 }
 
-#kontakt .col-sm-3, .col-sm-4 {
+ul {
+  margin-bottom: 0;
+}
+
+#dokumenty a {
+  display: block;
+}
+
+.col-justify {
+  text-align: justify;
+}
+
+.col-left ul {
+  text-align: left;
+}
+
+.col-smalltext {
+  vertical-align: bottom;
+}
+
+.clearfix {
   padding-bottom: 20px;
 }
 
-ul {
-  margin-bottom: 0;
+.clearfix:last-child {
+  padding-bottom: 0;
 }
 
 /*# sourceMappingURL=ubez.css.map */
