@@ -9,8 +9,7 @@ body {
   font-family: 'Comfortaa', 'Century Gothic', sans-serif;
   font-size: large;
   letter-spacing: 1px;
-  line-height: 0.8cm;
-}
+  line-height: 0.8cm; }
 
 html, body, .container-fluid {
   height: 100%; }
@@ -20,13 +19,10 @@ html, body, .container-fluid {
 a {
   color: #333;
   font-weight: bold;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #ddd;
-  text-decoration: none;
-}
+  text-decoration: none; }
+  a:hover {
+    color: #ddd;
+    text-decoration: none; }
 
 .row-logo {
   padding-bottom: 40px; }
@@ -39,19 +35,16 @@ a:hover {
 
 .row:nth-child(even):not(.row-navbar) {
   background: url("../img/bg2.jpg");
-  background-size: cover;
-}
+  background-size: cover; }
 
 .row-foot {
   padding: 12px;
   font-size: small;
-  text-align: center;
-}
+  text-align: center; }
 
 h2, h3 {
   letter-spacing: 2px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.62);
-}
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.62); }
 
 h2 {
   padding-bottom: 20px; }
@@ -60,8 +53,7 @@ h2 {
   display: block;
   font-size: 40px;
   padding-top: 10px;
-  padding-bottom: 10px;
-}
+  padding-bottom: 10px; }
 
 .hover-effect {
   padding: 20px; }
@@ -90,12 +82,9 @@ h2 {
       padding: 13px 9px 0px 20px; }
 
 .ubezpieczenia-logo, .leasing-logo, .no-header {
-  padding-top: 60px;
-}
-
-.ubezpieczenia-logo img, .leasing-logo img, .no-header img {
-  width: 100%;
-}
+  padding-top: 60px; }
+  .ubezpieczenia-logo img, .leasing-logo img, .no-header img {
+    width: 100%; }
 
 img {
   border-radius: 2px; }
@@ -104,8 +93,7 @@ img {
   margin: 0;
   padding-bottom: 40px;
   padding-left: 0;
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 #navcontainer ul li {
   display: inline; }
@@ -123,35 +111,26 @@ img {
 
 iframe {
   border-radius: 2px;
-  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.25);
-}
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.25); }
 
 ul {
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 #dokumenty a {
-  display: block;
-}
+  display: block; }
 
 .col-justify {
-  text-align: justify;
-}
+  text-align: justify; }
 
 .col-left ul {
-  text-align: left;
-}
+  text-align: left; }
 
 .col-smalltext {
-  vertical-align: bottom;
-}
+  vertical-align: bottom; }
 
 .clearfix {
-  padding-bottom: 20px;
-}
-
-.clearfix:last-child {
-  padding-bottom: 0;
-}
+  padding-bottom: 20px; }
+  .clearfix:last-child {
+    padding-bottom: 0; }
 
 /*# sourceMappingURL=ubez.css.map */
