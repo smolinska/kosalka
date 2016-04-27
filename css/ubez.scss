@@ -88,7 +88,7 @@ h2 {
       background: rgba(142, 139, 135, 0.56);
       text-align: right;
       letter-spacing: 2px;
-      font-size: 30px;
+      font-size: 1.5em;
       line-height: 33px;
       width: 100%;
       position: absolute;
@@ -99,6 +99,16 @@ h2 {
     }
   }
 
+}
+
+.code {
+  font-size: xx-large;
+  font-weight: 800;
+  padding: 0 10px;
+}
+
+.text-italic {
+  font-style: italic;
 }
 
 .ubezpieczenia-logo, .leasing-logo, .no-header {
@@ -126,7 +136,7 @@ img {
 #navcontainer ul li a {
   text-decoration: none;
   color: #333;
-  font-size: 20px;
+  font-size: 1.2em;
   background-color: transparent;
   padding-right: 15px;
 }
